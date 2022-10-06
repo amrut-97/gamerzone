@@ -4,9 +4,10 @@ A minimalist, fast, responsive website built with a simple, clean UI with the pu
 
 Development setup:
 - Clone the project
-- Create 2 separate bash terminals, one with the client file directory and the other with the server
-- Make a .env file inside server folder to connect to MongoDB database with PORT & CONNECTION_URL variables inside it.
-- Run 'npm i && npm start' for both client and server side to start the app
-- Use npm i --legacy-peer-deps instead if there are error installing the modules
+- Create 2 separate bash terminals, one with the client folder directory and the other with the server
+- Make a .env file inside server folder to connect to MongoDB database containing PORT & CONNECTION_URL env variables inside it
+- In the client directory terminal, run 'npx create-react-app .'
+- After that, run 'npm i && npm start' for both client and server directory terminals to start the app
+- Use 'npm i --legacy-peer-deps' instead if there are error installing the modules
 
 TODO: refactor reducers, maybe add clickable tags, fix update functionality
