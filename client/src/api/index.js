@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://gamerzone-test.herokuapp.com/' });
+const API = axios.create({ baseURL: 'https://gamerzone-backend.onrender.com' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
